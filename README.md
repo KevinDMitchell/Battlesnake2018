@@ -1,2 +1,2 @@
-# Battlesnake2018
+# BSnake2018
 Go Snake
