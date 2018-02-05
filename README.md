@@ -6,6 +6,26 @@ Instructions on how to start development:
 Install Git, and clone the repository.
 Install Go. I started going through the instructions, but in the end that didn't work but apt install golang-go did so that's cool.
 
+
+    Compile the battlesnake-go server.
+
+go build
+
+This will create a battlesnake-go executable.
+
+    Set your snake ID as an environment variable.
+
+export SNAKE_ID=ABCDEF1234
+
+This will allow your snake to locate itself during the game.
+
+    Run the server.
+
+./battlesnake-go
+
+    Test the client in your browser: http://127.0.0.1:9000
+
+
 To Develop: Make a branch corresponding to a needed task. Don't overlap a task someone else is already doing!
 git checkout -b "branchname"
 then add your changes and commit it to this repo on github.
