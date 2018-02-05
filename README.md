@@ -6,6 +6,8 @@ Instructions on how to start development:
 Install Git, and clone the repository.
 Install Go. I started going through the instructions, but in the end that didn't work but apt install golang-go did so that's cool.
 
+https://github.com/sendwithus/battlesnake-go
+
 
     Compile the battlesnake-go server.
 
