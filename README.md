@@ -9,23 +9,23 @@ Install Go. I started going through the instructions, but in the end that didn't
 https://github.com/sendwithus/battlesnake-go
 
 
-    Compile the battlesnake-go server.
+Compile the battlesnake-go server.
 
-go build
+    go build
 
 This will create a battlesnake-go executable.
 
-    Set your snake ID as an environment variable.
+Set your snake ID as an environment variable.
 
-export SNAKE_ID=ABCDEF1234
+    export SNAKE_ID=ABCDEF1234
 
 This will allow your snake to locate itself during the game.
 
-    Run the server.
+Run the server.
 
-./battlesnake-go
+    ./battlesnake-go
 
-    Test the client in your browser: http://127.0.0.1:9000
+Test the client in your browser: http://127.0.0.1:9000
 
 
 To Develop: Make a branch corresponding to a needed task. Don't overlap a task someone else is already doing!
