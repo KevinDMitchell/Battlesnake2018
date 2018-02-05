@@ -43,9 +43,13 @@ Big Roadblocks
   - Build An Adversarial Search Algorithms
       - build the tree that predicts the moves
            - Build in rules to limit number of snakes, and stop illegal moves. Calculate branching factor.
+           - This should also keep track of "narrowness", e.g. if the snake has to move through a lot of narrow spaces to get here.
         
       - build the heuristic that measures the score of each board.
-           - build a flood-fill search to check open areas
+           - build a flood-fill search to check open areas. space for us is good, space for competitors is bad.
+           - Take into account health of all snakes.
+           - Could take into account new rules such as coins.
+           - Take into account the amount of narrowness that the snake had to go through to get there.
            
        - build timing functions so we can keep track of how much each step takes.
 Go Snake
